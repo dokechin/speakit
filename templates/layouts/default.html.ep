@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title><%= title %></title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/blueprint/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="/css/blueprint/print.css" type="text/css" media="print"> 
+  <link rel="stylesheet" href="/css/blueprint/tabsplugin/screen.css" type="text/css" media="screen,projection"> 
+  <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen,projection"> 
+  <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection">
+  <![endif]-->
+  <script type="text/javascript" src="/js/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript">
+
+    $(function(){
+
+//	$('a[href^="/list"]').css('background-color', 'Aqua');
+
+	$('a[href^="/list"]').click(function(){
+		var win = window.open(this.href, 'list');
+		win.focus();
+		return false;
+	});
+
+	$('a[href^="https"]').click(function(){
+		var win = window.open(this.href, 'tweet');
+		win.focus();
+		return false;
+	});
+
+
+    });
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35535708-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  </script>
+  </head>
+  <div class="container">
+  <body><%= content %></body>
+  </div>
+</html>

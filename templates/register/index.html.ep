@@ -1,0 +1,16 @@
+% layout 'default';
+<div id="header">
+  <div id="title">
+    <h1><a href="/">Speak It</a></h1>
+    <p>メールアドレスの登録</p>
+  </div>
+</div>
+<div class="span-15">
+<p><%= $message %></p>
+</div>
+<div id="content" class="span-15">
+</div>
+<div id="side" class="span-8 last"></div>
+<div id="social" class="span-24">
+</div>
+

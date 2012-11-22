@@ -1,0 +1,301 @@
+[Fri Nov 23 04:33:25 2012] [info] Listening at "http://*:3000".
+[Fri Nov 23 04:33:46 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 04:33:46 2012] [debug] GET / (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:33:46 2012] [debug] Routing to controller "SpeakIt::Web::Example" and action "welcome".
+[Fri Nov 23 04:33:46 2012] [debug] Rendering template "example/welcome.html.ep".
+[Fri Nov 23 04:33:46 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Nov 23 04:33:46 2012] [debug] 200 OK (0.041419s, 24.144/s).
+[Fri Nov 23 04:33:46 2012] [debug] GET /css/blueprint/screen.css (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:33:46 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:33:46 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:33:46 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:33:46 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:33:46 2012] [debug] 404 Not Found (0.028545s, 35.032/s).
+[Fri Nov 23 04:33:46 2012] [debug] GET /css/blueprint/print.css (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:33:46 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:33:46 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:33:46 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:33:46 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:33:46 2012] [debug] 404 Not Found (0.011584s, 86.326/s).
+[Fri Nov 23 04:33:46 2012] [debug] GET /css/style.css (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:33:46 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:33:46 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:33:46 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:33:46 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:33:46 2012] [debug] 404 Not Found (0.010409s, 96.071/s).
+[Fri Nov 23 04:33:46 2012] [debug] GET /css/blueprint/tabsplugin/screen.css (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:33:46 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:33:46 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:33:46 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:33:46 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:33:46 2012] [debug] 404 Not Found (0.010453s, 95.666/s).
+[Fri Nov 23 04:33:46 2012] [debug] GET /js/jquery-1.8.2.min.js (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:33:46 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:33:46 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:33:46 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:33:46 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:33:46 2012] [debug] 404 Not Found (0.010342s, 96.693/s).
+[Fri Nov 23 04:33:50 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:33:50 2012] [error] syntax error at script/../lib/SpeakIt/Web/Register.pm line 11, near ")
+
+  # Render template "example/welcome.html.ep" with message
+  $self"
+Global symbol "$name" requires explicit package name at script/../lib/SpeakIt/Web/Register.pm line 12.
+Compilation failed in require at (eval 248) line 1.
+
+[Fri Nov 23 04:33:50 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:33:50 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:33:50 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:33:50 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:33:50 2012] [debug] 500 Internal Server Error (0.042836s, 23.345/s).
+[Fri Nov 23 04:35:04 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 04:35:04 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:35:04 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:35:04 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 13.
+
+[Fri Nov 23 04:35:04 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:35:04 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:35:04 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:35:04 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:35:04 2012] [debug] 500 Internal Server Error (0.039672s, 25.207/s).
+[Fri Nov 23 04:35:09 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:35:09 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:35:09 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 13.
+
+[Fri Nov 23 04:35:09 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:35:09 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:35:09 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:35:09 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:35:09 2012] [debug] 500 Internal Server Error (0.014329s, 69.789/s).
+[Fri Nov 23 04:36:00 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 04:36:00 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:36:00 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:36:00 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 14.
+
+[Fri Nov 23 04:36:00 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:36:00 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:36:00 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:36:00 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:36:00 2012] [debug] 500 Internal Server Error (0.043043s, 23.233/s).
+[Fri Nov 23 04:36:01 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:36:01 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:36:01 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 14.
+
+[Fri Nov 23 04:36:01 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:36:01 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:36:01 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:01 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:01 2012] [debug] 500 Internal Server Error (0.014662s, 68.204/s).
+[Fri Nov 23 04:36:02 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:36:02 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:36:02 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 14.
+
+[Fri Nov 23 04:36:02 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:36:02 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:36:02 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:02 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:02 2012] [debug] 500 Internal Server Error (0.014265s, 70.102/s).
+[Fri Nov 23 04:36:07 2012] [info] Listening at "http://*:3000".
+[Fri Nov 23 04:36:09 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 04:36:09 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:36:09 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:36:09 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 14.
+
+[Fri Nov 23 04:36:09 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:36:09 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:36:09 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:36:09 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:36:09 2012] [debug] 500 Internal Server Error (0.032276s, 30.983/s).
+[Fri Nov 23 04:36:10 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:36:10 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:36:10 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 14.
+
+[Fri Nov 23 04:36:10 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:36:10 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:36:10 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:10 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:10 2012] [debug] 500 Internal Server Error (0.014511s, 68.913/s).
+[Fri Nov 23 04:36:11 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:36:11 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:36:11 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 14.
+
+[Fri Nov 23 04:36:11 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:36:11 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:36:11 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:11 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:11 2012] [debug] 500 Internal Server Error (0.014196s, 70.442/s).
+[Fri Nov 23 04:36:12 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:36:12 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:36:12 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 14.
+
+[Fri Nov 23 04:36:12 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:36:12 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:36:12 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:12 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:12 2012] [debug] 500 Internal Server Error (0.014320s, 69.832/s).
+[Fri Nov 23 04:36:13 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:36:13 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:36:13 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 14.
+
+[Fri Nov 23 04:36:13 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:36:13 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:36:13 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:13 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:13 2012] [debug] 500 Internal Server Error (0.014303s, 69.915/s).
+[Fri Nov 23 04:36:26 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 04:36:26 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:36:26 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:36:26 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 14.
+
+[Fri Nov 23 04:36:26 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:36:26 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:36:26 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:36:26 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:36:26 2012] [debug] 500 Internal Server Error (0.046005s, 21.737/s).
+[Fri Nov 23 04:36:55 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:36:55 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:36:55 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 14.
+
+[Fri Nov 23 04:36:55 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:36:55 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:36:55 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:55 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:55 2012] [debug] 500 Internal Server Error (0.014715s, 67.958/s).
+[Fri Nov 23 04:36:55 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 04:36:56 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:36:56 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:36:56 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 14.
+
+[Fri Nov 23 04:36:56 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:36:56 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:36:56 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:36:56 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:36:56 2012] [debug] 500 Internal Server Error (0.042507s, 23.526/s).
+[Fri Nov 23 04:36:57 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:36:57 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:36:57 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 14.
+
+[Fri Nov 23 04:36:57 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:36:57 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:36:57 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:57 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:57 2012] [debug] 500 Internal Server Error (0.014207s, 70.388/s).
+[Fri Nov 23 04:36:57 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:36:57 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:36:57 2012] [error] Can't locate object method "new" via package "SpeakIt::Model::Hello" (perhaps you forgot to load "SpeakIt::Model::Hello"?) at script/../lib/SpeakIt/Web.pm line 14.
+
+[Fri Nov 23 04:36:57 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:36:57 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:36:57 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:57 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:36:57 2012] [debug] 500 Internal Server Error (0.014356s, 69.657/s).
+[Fri Nov 23 04:37:24 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 04:37:24 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:37:24 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:37:24 2012] [debug] Rendering template "register/index.html.ep".
+[Fri Nov 23 04:37:24 2012] [error] Template "/home/tetsuya/speak_it_web/templates/register/index.html.ep" has invalid encoding. at /usr/lib/perl5/site_perl/5.14/Mojolicious/Plugin/EPLRenderer.pm line 53.
+
+[Fri Nov 23 04:37:24 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:37:24 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:37:24 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:37:24 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:37:24 2012] [debug] 500 Internal Server Error (0.046775s, 21.379/s).
+[Fri Nov 23 04:37:25 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:37:25 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:37:25 2012] [debug] Rendering template "register/index.html.ep".
+[Fri Nov 23 04:37:25 2012] [error] Template "/home/tetsuya/speak_it_web/templates/register/index.html.ep" has invalid encoding. at /usr/lib/perl5/site_perl/5.14/Mojolicious/Plugin/EPLRenderer.pm line 53.
+
+[Fri Nov 23 04:37:25 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:37:25 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:37:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:37:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:37:25 2012] [debug] 500 Internal Server Error (0.017148s, 58.316/s).
+[Fri Nov 23 04:37:25 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:37:25 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:37:25 2012] [debug] Rendering template "register/index.html.ep".
+[Fri Nov 23 04:37:25 2012] [error] Template "/home/tetsuya/speak_it_web/templates/register/index.html.ep" has invalid encoding. at /usr/lib/perl5/site_perl/5.14/Mojolicious/Plugin/EPLRenderer.pm line 53.
+
+[Fri Nov 23 04:37:25 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:37:25 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:37:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:37:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:37:25 2012] [debug] 500 Internal Server Error (0.017054s, 58.637/s).
+[Fri Nov 23 04:37:55 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 04:37:55 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:37:55 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:37:55 2012] [debug] Rendering template "register/index.html.ep".
+[Fri Nov 23 04:37:55 2012] [error] Bareword "message" not allowed while "strict subs" in use at template "register/index.html.ep" line 9, near "</div>".
+4:     <h1><a href="/">Speak It</a></h1>
+5:     <p>メールアドレスの登録</p>
+6:   </div>
+7: </div>
+8: <div class="span-15">
+9: <p><%= message %></p>
+10: </div>
+11: <div id="content" class="span-15">
+12: </div>
+13: <div id="side" class="span-8 last"></div>
+14: <div id="social" class="span-24">
+
+[Fri Nov 23 04:37:55 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:37:55 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:37:55 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:37:55 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:37:55 2012] [debug] 500 Internal Server Error (0.084092s, 11.892/s).
+[Fri Nov 23 04:37:56 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:37:56 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:37:56 2012] [debug] Rendering template "register/index.html.ep".
+[Fri Nov 23 04:37:56 2012] [error] Bareword "message" not allowed while "strict subs" in use at template "register/index.html.ep" line 9, near "</div>".
+4:     <h1><a href="/">Speak It</a></h1>
+5:     <p>メールアドレスの登録</p>
+6:   </div>
+7: </div>
+8: <div class="span-15">
+9: <p><%= message %></p>
+10: </div>
+11: <div id="content" class="span-15">
+12: </div>
+13: <div id="side" class="span-8 last"></div>
+14: <div id="social" class="span-24">
+
+[Fri Nov 23 04:37:56 2012] [debug] Template "exception.development.html.ep" not found.
+[Fri Nov 23 04:37:56 2012] [debug] Template "exception.html.ep" not found.
+[Fri Nov 23 04:37:56 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:37:56 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:37:56 2012] [debug] 500 Internal Server Error (0.019058s, 52.471/s).
+[Fri Nov 23 04:38:25 2012] [debug] Your secret passphrase needs to be changed!!!
+[Fri Nov 23 04:38:25 2012] [debug] GET /register (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:38:25 2012] [debug] Routing to controller "SpeakIt::Web::Register" and action "index".
+[Fri Nov 23 04:38:25 2012] [debug] Rendering template "register/index.html.ep".
+[Fri Nov 23 04:38:25 2012] [debug] Rendering template "layouts/default.html.ep".
+[Fri Nov 23 04:38:25 2012] [debug] 200 OK (0.040931s, 24.431/s).
+[Fri Nov 23 04:38:25 2012] [debug] GET /css/blueprint/screen.css (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:38:25 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:38:25 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:38:25 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:38:25 2012] [debug] Rendering inline template.
+[Fri Nov 23 04:38:25 2012] [debug] 404 Not Found (0.026977s, 37.069/s).
+[Fri Nov 23 04:38:25 2012] [debug] GET /css/blueprint/print.css (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:38:25 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:38:25 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:38:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:38:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:38:25 2012] [debug] 404 Not Found (0.009741s, 102.659/s).
+[Fri Nov 23 04:38:25 2012] [debug] GET /css/style.css (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:38:25 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:38:25 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:38:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:38:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:38:25 2012] [debug] 404 Not Found (0.009727s, 102.807/s).
+[Fri Nov 23 04:38:25 2012] [debug] GET /css/blueprint/tabsplugin/screen.css (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:38:25 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:38:25 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:38:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:38:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:38:25 2012] [debug] 404 Not Found (0.009989s, 100.110/s).
+[Fri Nov 23 04:38:25 2012] [debug] GET /js/jquery-1.8.2.min.js (Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; BTRS124349; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)).
+[Fri Nov 23 04:38:25 2012] [debug] Template "not_found.development.html.ep" not found.
+[Fri Nov 23 04:38:25 2012] [debug] Template "not_found.html.ep" not found.
+[Fri Nov 23 04:38:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:38:25 2012] [debug] Rendering cached inline template.
+[Fri Nov 23 04:38:25 2012] [debug] 404 Not Found (0.010091s, 99.098/s).
