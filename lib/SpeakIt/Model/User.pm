@@ -1,6 +1,9 @@
 package SpeakIt::Model::User;
 use strict;
 use warnings;
+use String::Random;
+
+
 
 sub new {
     my $pkg = shift;
@@ -30,4 +33,13 @@ sub login {
     }
 
 }
+
+sub get_key{
+  my $rand_str = String::Random->new->randregex('[A-Za-z0-9]{32}');
+  return $rand_str;
+}
+
+
+
+
 1;
