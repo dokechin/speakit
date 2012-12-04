@@ -2,7 +2,7 @@ package SpeakIt::Model::User;
 use strict;
 use warnings;
 use String::Random;
-
+use DateTime;
 
 
 sub new {
@@ -18,6 +18,14 @@ sub add_user {
     my $self = shift;
     my $row = $self->{db}->insert('user', shift);
     
+}
+
+sub register_mail {
+    my $self = shift;
+    my $mail = shift;
+    
+    $self->{db}->insert('mailauth', {mail=>$mail, key => get_key() });
+
 }
 
 sub login {

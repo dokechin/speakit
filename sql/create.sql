@@ -11,12 +11,17 @@ CREATE  TABLE IF NOT EXISTS `speakit`.`user` (
   `user_id` VARCHAR(10) NOT NULL ,
   `password` TEXT NULL ,
   `mail` VARCHAR(200) NOT NULL unique,
-  `key` CHAR(32) NOT NULL unique,
-  `active` integer ,
-  `create_at` DATETIME NULL ,
+  `active` integer default 1,
+  `create_at` timestamp,
    PRIMARY KEY (`user_id`))
 ENGINE = InnoDB;
 
-insert into speakit.user values('test','test','test@hogehoge.com','123456789012345678901234567890',0,current_date);
+DROP TABLE `speakit`.`mailauth`;
+CREATE  TABLE IF NOT EXISTS `speakit`.`mailauth` (
+  `mail` VARCHAR(200) NOT NULL,
+  `key` CHAR(32) NOT NULL unique,
+  `create_at` timestamp)
+ENGINE = InnoDB;
+
 
 
